@@ -1,4 +1,4 @@
-# arm-none-eabi-toolchain-mac
+# arm-cortexm-toolchain-mac
 A cross-compiler toolchain for macOS (10.15) host and arm-none-eabi targets optimized for cortex-m4f and cortex-m7.
 
 #### Installation
