@@ -34,6 +34,12 @@ Software development
 * gcov-tool: (gcc) Gcov-tool.  `gcov-tool'--an offline gcda profile processing program.
 * gdbserver: (gdb) Server.        The GNU debugging server.
 * gprof: (gprof).                Profiling your program's execution
+* lto-dump: (gcc) lto-dump.    `lto-dump'--Tool for
+dumping LTO object files.
+dumping LTO object files.
+dumping LTO object files.
+dumping LTO object files.
+dumping LTO object files.
 
 Individual utilities
 * addr2line: (binutils)addr2line. Convert addresses to file and line.
