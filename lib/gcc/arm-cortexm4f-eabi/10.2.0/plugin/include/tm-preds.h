@@ -1,5 +1,5 @@
 /* Generated automatically by the program 'build/genpreds'
-   from the machine description file '/Volumes/arm-toolchain/arm-none-eabi/build/arm-cortexm4f-eabi/src/gcc/gcc/config/arm/arm.md'.  */
+   from the machine description file '/Volumes/Mac-Toolchain/arm-none-eabi/build/arm-cortexm4f-eabi/src/gcc/gcc/config/arm/arm.md'.  */
 
 #ifndef GCC_TM_PREDS_H
 #define GCC_TM_PREDS_H
