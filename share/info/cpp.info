@@ -2102,11 +2102,13 @@ double underscores.
      mechanism based on `setjmp' and `longjmp' for exception handling.
 
 `__GXX_EXPERIMENTAL_CXX0X__'
-     This macro is defined when compiling a C++ source file with the
-     option `-std=c++0x' or `-std=gnu++0x'. It indicates that some
-     features likely to be included in C++0x are available. Note that
-     these features are experimental, and may change or be removed in
-     future versions of GCC.
+     This macro is defined when compiling a C++ source file with C++11
+     features enabled, i.e., for all C++ language dialects except
+     `-std=c++98' and `-std=gnu++98'. This macro is obsolete, but can
+     be used to detect experimental C++0x features in very old versions
+     of GCC. Since GCC 4.7.0 the `__cplusplus' macro is defined
+     correctly, so most code should test `__cplusplus >= 201103L'
+     instead of using this macro.
 
 `__GXX_WEAK__'
      This macro is defined when compiling a C++ source file.  It has the
@@ -5571,55 +5573,55 @@ Node: Variadic Macros59230
 Node: Predefined Macros64183
 Node: Standard Predefined Macros64771
 Node: Common Predefined Macros71147
-Node: System-specific Predefined Macros92723
-Node: C++ Named Operators94746
-Node: Undefining and Redefining Macros95710
-Node: Directives Within Macro Arguments97814
-Node: Macro Pitfalls98755
-Node: Misnesting99288
-Node: Operator Precedence Problems100400
-Node: Swallowing the Semicolon102266
-Node: Duplication of Side Effects104289
-Node: Self-Referential Macros106472
-Node: Argument Prescan108881
-Node: Newlines in Arguments112630
-Node: Conditionals113581
-Node: Conditional Uses115278
-Node: Conditional Syntax116636
-Node: Ifdef117068
-Node: If120234
-Node: Defined122538
-Node: Else123933
-Node: Elif124503
-Node: `__has_attribute'125818
-Node: `__has_cpp_attribute'127417
-Node: `__has_c_attribute'128314
-Node: `__has_builtin'129093
-Node: `__has_include'130231
-Node: Deleted Code131825
-Node: Diagnostics133072
-Node: Line Control134619
-Node: Pragmas136897
-Node: Other Directives141294
-Node: Preprocessor Output142344
-Node: Traditional Mode145500
-Node: Traditional lexical analysis146636
-Node: Traditional macros149139
-Node: Traditional miscellany152937
-Node: Traditional warnings153934
-Node: Implementation Details156131
-Node: Implementation-defined behavior156694
-Ref: Identifier characters157446
-Node: Implementation limits160494
-Node: Obsolete Features163168
-Node: Invocation166013
-Ref: dashMF172048
-Ref: fdollars-in-identifiers176712
-Ref: Wtrigraphs190846
-Node: Environment Variables192900
-Node: GNU Free Documentation License196592
-Node: Index of Directives221756
-Node: Option Index223909
-Node: Concept Index230011
+Node: System-specific Predefined Macros92861
+Node: C++ Named Operators94884
+Node: Undefining and Redefining Macros95848
+Node: Directives Within Macro Arguments97952
+Node: Macro Pitfalls98893
+Node: Misnesting99426
+Node: Operator Precedence Problems100538
+Node: Swallowing the Semicolon102404
+Node: Duplication of Side Effects104427
+Node: Self-Referential Macros106610
+Node: Argument Prescan109019
+Node: Newlines in Arguments112768
+Node: Conditionals113719
+Node: Conditional Uses115416
+Node: Conditional Syntax116774
+Node: Ifdef117206
+Node: If120372
+Node: Defined122676
+Node: Else124071
+Node: Elif124641
+Node: `__has_attribute'125956
+Node: `__has_cpp_attribute'127555
+Node: `__has_c_attribute'128452
+Node: `__has_builtin'129231
+Node: `__has_include'130369
+Node: Deleted Code131963
+Node: Diagnostics133210
+Node: Line Control134757
+Node: Pragmas137035
+Node: Other Directives141432
+Node: Preprocessor Output142482
+Node: Traditional Mode145638
+Node: Traditional lexical analysis146774
+Node: Traditional macros149277
+Node: Traditional miscellany153075
+Node: Traditional warnings154072
+Node: Implementation Details156269
+Node: Implementation-defined behavior156832
+Ref: Identifier characters157584
+Node: Implementation limits160632
+Node: Obsolete Features163306
+Node: Invocation166151
+Ref: dashMF172186
+Ref: fdollars-in-identifiers176850
+Ref: Wtrigraphs190984
+Node: Environment Variables193038
+Node: GNU Free Documentation License196730
+Node: Index of Directives221894
+Node: Option Index224047
+Node: Concept Index230149
 
 End Tag Table
