@@ -2,7 +2,7 @@
     "name": "toolchain-arm-cortexm-mac",
     "description": "Cross-compiler toolchain for macOS (13) host and arm-none-eabi targets optimized for cortex-m0+, cortex-m4f and cortex-m7f.",
     "url": "https://github.com/tsandmann/arm-cortexm-toolchain-mac.git",
-    "version": "13.2.0-1",
+    "version": "13.2.0-2",
     "license": "GPL-2.0-or-later",
     "system": "darwin_x86_64"
 }
